@@ -6,9 +6,9 @@
 ## cqalert
 > alert(msg)
 - arguments:
-    ```
-    > msg: String 提示字段
-    ```
+  ```
+  > msg:  String  提示字段
+  ```
 
 ## cqloading
 > loading()
@@ -23,15 +23,16 @@
   
 > delURLParameter(parameter_name, not_change_url)
 - arguments:
-    ```
-    > parameter_name: String 要删除的url
-    > not_change_url: Boolean 是否更改url
-    ```
+  ```
+  > parameter_name:  String  要删除的url
+
+  > not_change_url:  Boolean  是否更改url
+  ```
 
 - res:
-    ```
-    url中的指定参数（'parameter_name=parameter_value'）
-    ```
+  ```
+  url中的指定参数（'parameter_name=parameter_value'）
+  ```
 
 
 
@@ -42,32 +43,34 @@
 ### proto:
 
 - data: Object 要进行置换的参数
-    ```
-    { 编码后: 解码后 }
-    ```
+  ```
+  { 编码后: 解码后 }
+  ```
 
 - setData: Function 新增转义字符
     
-    - arguments:
-      > obj: Object 要新增的置换参数{ 编码后: 解码后 }
+  - arguments:
+    ```
+    > obj:  Object  要新增的置换参数{ 编码后: 解码后 }
+    ```
 
 - encode: Function 编码
     
-    - arguments:
-        ```
-        > str: String 需要被编码的字符串
-        ```
-    - res:
-        ```
-        String 编码后的字符串
-        ```
-- decode: Function 解码
+  - arguments:
+    ```
+    > str:  String  需要被编码的字符串
+    ```
+  - res:
+    ```
+    String 编码后的字符串
+    ```
+- decode:  Function  解码
 
-    - arguments:
-        ```
-        > str: String 需要被解码的字符串
-        ```
-    - res:
-        ```
-        String 解码后的字符串
-        ```
+  - arguments:
+    ```
+    > str:  String  需要被解码的字符串
+    ```
+  - res:
+    ```
+    String  解码后的字符串
+    ```
