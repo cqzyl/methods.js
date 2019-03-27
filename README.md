@@ -19,7 +19,7 @@
 
 
 
-## 删除url指定参数
+## 获取（并删除）url指定参数
   
 > delURLParameter(parameter_name, not_change_url)
 - arguments:
